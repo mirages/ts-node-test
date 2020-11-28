@@ -1,6 +1,6 @@
 // some third-party lib register like below:
 // and will use the tsconfig.json
-// require('ts-node').register()
+require('ts-node').register()
 
 // my own register for some special ts file like below:
 require('ts-node').register({
